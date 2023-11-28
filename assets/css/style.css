@@ -589,8 +589,26 @@ body {
     flex-shrink: 0;
     position: absolute;
     bottom: 10px;
-    right: 0;
+    right: -2%;
 
+}
+
+.coin-ellipse {
+    border-radius: 395.788px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(123.5px);
+    width: 381.479px;
+    height: 395.788px;
+    flex-shrink: 0;
+    position: absolute;
+    left: 17%;
+    top: 5%;
+}
+
+.image-filter {
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+    mix-blend-mode: screen !important;
 }
 
 .page-ellipse3 {
@@ -611,13 +629,13 @@ body {
     width: 416.224px;
     height: 405.428px;
     flex-shrink: 0;
-    border-radius: 416.224px;
+    /* border-radius: 416.224px; */
     opacity: 0.3;
     background: #06F;
     filter: blur(100px);
     position: absolute;
-    bottom: 7%;
-    left: 0;
+    bottom: 32%;
+    left: -3%;
 
 }
 
@@ -645,7 +663,7 @@ body {
     flex-shrink: 0;
     position: absolute;
     top: -24%;
-    left: 0;
+    left: -3%;
 
 }
 
