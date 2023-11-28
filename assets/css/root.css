@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+
+    /* font-size */
+    --fs-s: 15px;
+    --fs-sm: 11px;
+    --fs-md: 18px;
+    --fs-lg: 20px;
+    --fs-xl: 32px;
+    --fs-xxl: 42px;
+    --fs-2xl: 45px;
+
+    /* color */
+    --off-white: #FBFDFF;
+    --white: #FFF;
+    --blue: #0259ac;
+    --gray: #B0B6BB;
+    --color-gry: #caced2;
+    --light-bluee: #0389ff;
+    --dark-blue: #020d15;
+    --dark-black: #021728;
+    --dark-gray: #98a1a9;
+    --light-blue: #0763ba;
+    --bs-gry: #b1b5b9;
+    --border-color: #273138;
+    --offblue: #021423;
+    --mid-bluee: #0389FF1F;
+    --off-gry: #e6e7e8;
+    --ellipse: #1673FF;
+
+
+
+    /* font-family  */
+    --ff-Plus-Jakarta: Plus Jakarta Sans;
+
+}
+
+/* font-family  */
+.ff-PlusJakarta {
+    font-family: var(--ff-Plus-Jakarta);
+
+}
+
+/* line-height */
+.lh-126 {
+    line-height: 126%;
+}
+
+.lh-170 {
+    line-height: 170%;
+}
+
+.lh-121 {
+    line-height: 121%;
+}
+
+.lh-140 {
+    line-height: 140%;
+}
+
+.lh-152 {
+    line-height: 152%;
+}
+
+.lh-150 {
+    line-height: 150%;
+}
+
+
+
+/* .font-size */
+.fs-s {
+    font-size: var(--fs-s);
+}
+
+.fs-sm {
+    font-size: var(--fs-sm);
+}
+
+.fs-md {
+    font-size: var(--fs-md);
+}
+
+.fs-lg {
+    font-size: var(--fs-lg);
+}
+
+.fs-xl {
+    font-size: var(--fs-xl);
+}
+
+.fs-xxl {
+    font-size: var(--fs-xxl);
+}
+
+.fs-2xl {
+    font-size: var(--fs-2xl);
+}
+
+/* color */
+.white {
+    color: var(#FFF);
+}
+
+.off-white {
+    color: var(--off-white);
+}
+
+.dark-blue {
+    background: var(--dark-blue);
+}
+
+.ellipse {
+    background: var(--ellipse);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.light-bluee {
+    background: var(--light-bluee);
+}
+
+.color-bluee {
+    color: var(--light-bluee);
+}
+
+.light-blue {
+    background: var(--light-blue);
+}
+
+.mid-bluee {
+    background-color: var(--mid-bluee);
+}
+
+.blue {
+    background: var(--blue);
+}
+
+.off-gry {
+    color: var(--off-gry);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.offblue {
+    background: var(--offblue);
+}
+
+.dark-gray {
+    color: var(--dark-gray);
+}
+
+.dark-black {
+    background: var(--dark-black);
+}
+
+.color-gray {
+    color: var(--color-gry);
+}
+
+.bs-gry {
+    color: var(--bs-gry);
+}
+
+/* .bg-gry {
+    background: var(--bs-gry);
+} */
+
+.border-color {
+    background-color: var(--border-color);
+}
