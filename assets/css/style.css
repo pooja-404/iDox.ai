@@ -932,6 +932,7 @@ body {
         position: absolute;
         left: 22%;
         top: 43%;
+        z-index: -1;
     }
 
 
@@ -999,18 +1000,21 @@ body {
         position: absolute;
         left: 43%;
         top: 27%;
+        z-index: -1;
     }
 
     .arrow-2 {
         position: absolute;
         left: 84%;
         top: 41%;
+        z-index: -1;
     }
 
     .arrow-3 {
         position: absolute;
         left: 85%;
         top: 42%;
+        z-index: -1;
     }
 
 
