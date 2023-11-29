@@ -1071,6 +1071,9 @@ body {
         left: 88%;
         top: 33%;
     }
+    .w-lg-110{
+        width: 110% !important;
+    }
 
     .arrow-3 {
         position: absolute;
