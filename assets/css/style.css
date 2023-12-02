@@ -573,8 +573,6 @@ body {
     position: absolute;
     bottom: 10px;
     right: -2%;
-    z-index: -1;
-
 }
 
 .coin-ellipse {
@@ -692,14 +690,14 @@ body {
     max-width: 834px;
 }
 
-.slider-card.slick-current.slick-active .card-ellipse {
+.slider-card.slick-current.slick-active .slider-ellipse {
     display: block;
 }
 
-.active-ellipse {
-    display: none !important;
+.slider-ellipse {
+    display: none;
     position: absolute;
-    z-index: 3;
+    z-index: 3 !important;
     border-radius: 381.479px;
     opacity: 0.3;
     background: #06F;
