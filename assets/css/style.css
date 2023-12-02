@@ -28,10 +28,10 @@
 }
 
 .bg-image2 {
-    background-image: url(../images/bluebg.png);
+    background-image: url(../images/grad.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .header-image {
@@ -557,7 +557,8 @@ body {
     width: 299px;
     height: 304px;
     position: absolute;
-    top: 49%;
+    top: 43%;
+
 
 }
 
@@ -572,6 +573,7 @@ body {
     position: absolute;
     bottom: 10px;
     right: -2%;
+    z-index: -1;
 
 }
 
@@ -586,6 +588,7 @@ body {
     position: absolute;
     left: 17%;
     top: 5%;
+    z-index: -1;
 }
 
 .image-filter {
@@ -604,6 +607,7 @@ body {
     position: absolute;
     bottom: 20%;
     left: 37%;
+    z-index: -1;
 }
 
 
@@ -618,6 +622,7 @@ body {
     position: absolute;
     bottom: 32%;
     left: -3%;
+    z-index: -1;
 
 }
 
@@ -632,6 +637,7 @@ body {
     position: absolute;
     bottom: 15%;
     left: 17%;
+    z-index: -1;
 
 }
 
@@ -646,6 +652,7 @@ body {
     position: absolute;
     top: -24%;
     left: -3%;
+    z-index: -1;
 
 }
 
@@ -702,6 +709,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
+    z-index: -1;
 }
 
 
