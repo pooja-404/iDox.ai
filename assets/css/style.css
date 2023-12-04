@@ -195,6 +195,10 @@
     opacity: 0.5;
 }
 
+.corsourpointer {
+    cursor: none;
+}
+
 .fw-small {
     font-weight: 300;
 }
@@ -995,7 +999,7 @@ body {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .col-smm-6 {
         width: 50%;
         padding-left: 12px;
@@ -1023,6 +1027,8 @@ body {
 
 
 }
+
+@media (max-width: 768px) {}
 
 @media (min-width: 320px) {
     .border_top1 {
