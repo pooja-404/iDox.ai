@@ -848,67 +848,6 @@ body {
         z-index: 4 !important;
     }
 
-    .border1 {
-        position: relative;
-    }
-
-    .border1::after {
-        content: "";
-        height: 1px;
-        position: absolute;
-        background: white;
-        bottom: -40%;
-        left: -246%;
-        right: -246%;
-        opacity: 0.2;
-
-    }
-
-    .border2 {
-        position: relative;
-    }
-
-    .border2::after {
-        content: "";
-        height: 1px;
-        position: absolute;
-        background: white;
-        bottom: -40%;
-        left: -183%;
-        right: -183%;
-        opacity: 0.2;
-    }
-
-    .border3 {
-        position: relative;
-    }
-
-    .border3::after {
-        content: "";
-        height: 1px;
-        position: absolute;
-        background: white;
-        bottom: -40%;
-        left: -217%;
-        right: -217%;
-        opacity: 0.2;
-    }
-
-    .border4 {
-        position: relative;
-    }
-
-    .border4::after {
-        content: "";
-        height: 1px;
-        position: absolute;
-        background: white;
-        bottom: -40%;
-        left: -387%;
-        right: -387%;
-        opacity: 0.2;
-    }
-
     .w-lg-50 {
         width: 50%;
     }
