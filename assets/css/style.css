@@ -266,6 +266,33 @@
     flex-shrink: 0;
 }
 
+.reduct-ellipse {
+    width: 172.995px;
+    height: 172.995px;
+    flex-shrink: 0;
+    fill: #0389FF;
+    filter: blur(150px);
+    z-index: -1;
+    position: absolute;
+    right: 22%;
+    top: -27%;
+}
+
+.summary-ellipse {
+    width: 381.479px;
+    height: 395.788px;
+    flex-shrink: 0;
+    border-radius: 395.788px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(123.5px);
+    z-index: -1;
+    position: absolute;
+    right: 15%;
+    top: 7%;
+
+}
+
 .slider-ellipse {
     position: absolute;
     left: 20%;
@@ -428,6 +455,7 @@ body {
 .mx-409 {
     max-width: 409px;
 }
+
 .accordion-item {
     border: none !important;
     border-radius: 10px !important;
