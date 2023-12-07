@@ -161,10 +161,6 @@
     margin-top: -110px;
 }
 
-
-
-
-
 .border-right1 {
     border-right: 1px solid var(--border-color);
 
@@ -250,8 +246,6 @@
     color: var(--light-bluee);
     transition: 400ms linear;
     transform: scale(1.1);
-
-
 }
 
 .card-hover:hover .select-btn {
@@ -404,8 +398,6 @@ body {
     right: -7%;
 }
 
-
-
 /* accordion-section */
 .elips-2 {
     width: 200.097px;
@@ -432,19 +424,6 @@ body {
     left: 0;
     z-index: -1;
 }
-
-/* .slider-track {
-    display: flex;
-    gap: 20px;
-}
-.slider-slide {
-    height: inherit;
-    display: flex;
-}
-.slick-slide>*{
-    display: flex;
-} */
-
 
 .img_mwh {
     width: 64px;
@@ -566,8 +545,7 @@ body {
     height: 304px;
     position: absolute;
     top: 43%;
-
-
+    z-index: -1;
 }
 
 .page-ellipse2 {
@@ -581,6 +559,7 @@ body {
     position: absolute;
     bottom: 10px;
     right: -2%;
+
 }
 
 .coin-ellipse {
@@ -598,7 +577,6 @@ body {
 }
 
 .image-filter {
-    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
     mix-blend-mode: screen !important;
 }
 
@@ -658,7 +636,7 @@ body {
     position: absolute;
     top: -24%;
     left: -3%;
-    z-index: -1;
+    z-index: -1 !important;
 
 }
 
@@ -825,67 +803,6 @@ body {
     overflow-x: clip;
 }
 
-/* slider-update */
-/* .slider-card1 {
-    border-radius: 20px;
-    background: rgba(3, 137, 255, 0.12);
-    width: 946px;
-    height: 253px;
-}
-
-.slick-dots {
-    position: absolute;
-    bottom: -58px;
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-align: center;
-}
-
-.slick-dots li button:before {
-    content: 'unset';
-    font-size: 0;
-}
-
-.slick-dots li.slick-active {
-    background: var(--light-bluee);
-    width: 50px;
-}
-
-.slick-slider .slick-slide.slick-current.slider-card1>p {
-    color: #fff;
-    font-style: italic;
-}
-
-.slick-track {
-    display: flex !important;
-}
-
-.card-ellipse {
-    display: none;
-    position: absolute;
-    z-index: 3;
-    border-radius: 381.479px;
-    opacity: 0.3;
-    background: #06F;
-    filter: blur(123.5px);
-    height: 150px;
-    width: 150px;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    left: 50%;
-}
-
-.slider-card1.slick-current.slick-active .card-ellipse {
-    display: block;
-}
-
-.img-slider {
-    background: var(--dark-blue);
-    mix-blend-mode: color;
-} */
 
 
 @media (max-width: 992px) {
@@ -1027,8 +944,6 @@ body {
 
 
 }
-
-@media (max-width: 768px) {}
 
 @media (min-width: 320px) {
     .border_top1 {
