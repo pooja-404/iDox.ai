@@ -518,6 +518,10 @@ body {
     margin-top: 28px;
 }
 
+.max-w-320 {
+    max-width: 320px;
+}
+
 /* nav-section  */
 
 .custom-container {
@@ -1165,6 +1169,7 @@ body {
     .w-lg-50 {
         width: 50%;
     }
+
 
 
 }
