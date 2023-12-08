@@ -275,7 +275,7 @@
     z-index: -1;
     position: absolute;
     right: 22%;
-    top: -27%;
+    top: 8%;
 }
 
 .summary-ellipse {
@@ -634,7 +634,7 @@ body {
     filter: blur(100px);
     position: absolute;
     bottom: 15%;
-    left: 17%;
+    left: 12%;
     z-index: -1;
 
 }
@@ -702,8 +702,9 @@ body {
     opacity: 0.3;
     background: #06F;
     filter: blur(123.5px);
-    height: 150px;
-    width: 150px;
+    width: 381.479px;
+    height: 191px;
+    flex-shrink: 0;
     top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
