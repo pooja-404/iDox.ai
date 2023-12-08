@@ -45,13 +45,20 @@
 
 <body class="overflow-hidden">
     <div id="preloader"
-        class="animation bg-black w-100 min-vh-100 position-fixed d-flex justify-content-center align-items-center z_4 duration-400 cursor-pointer">
-        <img src="./assets/images/preloader.avif" alt="preloader" class="w-25 h-25">
+        class="animation bg-black w-100 min-vh-100 position-fixed d-flex justify-content-center align-items-center z_4 duration-500 cursor-pointer">
+    <div class="loading-container">
+        <div class="loading"></div>
+        <div id="loading-text">loading</div>
+    </div>
+    
+    <!--// Link Attribution -->
+    <a href="http://www.domsammut.com/about#utm_source=web&utm_medium=demo&utm_campaign=CodePen" title="domsammut.com"
+        id="link"></a>
     </div>
     <!-- ============= header============ -->
     <header class="overflow ">
         <nav class="pt-2 nav-shadow1">
-            <div class="container-fluid">
+            <div class="custom-container">
                 <div class="d-flex justify-content-between align-items-center">
                     <img src="./assets/images/logo.png" alt="logo" class="corsour-pointer">
                     <div>
@@ -86,7 +93,6 @@
                 </div>
             </div>
         </nav>
-        <div>
             <div class="header-image overflow">
                 <div class="my-container py-5">
                     <div class="row py-5">
@@ -130,7 +136,6 @@
                     <div class="page-ellipse page-ellipse-abs d-none d-lg-block "></div>
                 </div>
             </div>
-        </div>
     </header>
     <main class="overflow-hidden">
         <!-- =============section============ -->
@@ -260,7 +265,7 @@
                             <div class="accordion-item">
                                 <div class="d-flex " type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapsetwo" aria-expanded="false"
-                                    aria-controls="flush-collapsetwo">">
+                                    aria-controls="flush-collapsetwo">
                                     <img src="./assets/images/clock.png" alt="accordion-img" id="flush-collapsetwo"
                                         class="accordion-collapse collapse img_mwh tranlate-xy"
                                         data-bs-parent="#accordionFlushExample">
@@ -289,7 +294,7 @@
                             <div class="accordion-item">
                                 <div class="d-flex" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapsethree" aria-expanded="false"
-                                    aria-controls="flush-collapsethree">>
+                                    aria-controls="flush-collapsethree">
                                     <img src="./assets/images/clock.png" alt="accordion-img" id="flush-collapsethree"
                                         class="accordion-collapse collapse img_mwh tranlate-xy"
                                         data-bs-parent="#accordionFlushExample">
@@ -318,7 +323,7 @@
                             <div class="accordion-item">
                                 <div class="d-flex" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapsefour" aria-expanded="false"
-                                    aria-controls="flush-collapsefour">>
+                                    aria-controls="flush-collapsefour">
                                     <img src="./assets/images/clock.png" alt="accordion-img" id="flush-collapsefour"
                                         class="accordion-collapse collapse img_mwh tranlate-xy"
                                         data-bs-parent="#accordionFlushExample">
@@ -347,7 +352,7 @@
                             <div class="accordion-item">
                                 <div class="d-flex" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapsefive" aria-expanded="false"
-                                    aria-controls="flush-collapsefive">>
+                                    aria-controls="flush-collapsefive">
                                     <img src="./assets/images/clock.png" alt="accordion-img" id="flush-collapsefive"
                                         class="accordion-collapse collapse img_mwh tranlate-xy"
                                         data-bs-parent="#accordionFlushExample">
@@ -376,7 +381,7 @@
                             <div class="accordion-item">
                                 <div class="d-flex" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapsesix" aria-expanded="false"
-                                    aria-controls="flush-collapsesix">>
+                                    aria-controls="flush-collapsesix">
                                     <img src="./assets/images/clock.png" alt="accordion-img" id="flush-collapsesix"
                                         class="accordion-collapse collapse img_mwh tranlate-xy"
                                         data-bs-parent="#accordionFlushExample">
@@ -610,8 +615,7 @@
                         document
                     </p>
                     <div class="row position-relative pt-5 justify-content-center">
-                        <div
-                            class="col-lg-3 col-md-4  col-sm-6 pt-5 pt-lg-0  d-flex align-items-center justify-content-center">
+                        <div class="col-lg-3 col-md-4  col-sm-6 pt-5 pt-lg-0  d-flex align-items-center justify-content-center">
                             <div class="position-relative">
                                 <div class="document-card">
                                     <img src="./assets/images/fileimage.png" alt="file">
@@ -631,7 +635,7 @@
                                     </g>
                                 </svg>
                             </div>
-                            <span class="arrow d-none d-sm-block">
+                            <span class="arrow d-none d-xl-block">
                                 <svg width="55" height="32" viewBox="0 0 55 32" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -668,7 +672,7 @@
                                     </svg>
                                 </span>
                             </div>
-                            <span class="arrow-2  d-none d-sm-block ">
+                            <span class="arrow-2  d-none d-xl-block ">
                                 <svg width="55" height="32" viewBox="0 0 55 32" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -705,7 +709,7 @@
                                     </svg>
                                 </span>
                             </div>
-                            <span class="arrow-3 d-none d-sm-block ">
+                            <span class="arrow-3 d-none d-xl-block ">
                                 <svg width="55" height="32" viewBox="0 0 55 32" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -838,14 +842,14 @@
                         fits for you
                     </h2>
                     <div class="row justify-content-center pt-55 pb-5">
-                        <div class="col-xl-4 col-lg-4 col-sm-6 card-center  border-right1 pe-0 ps-0 pt-5 pt-lg-0 ">
-                            <div class="card-hover">
+                        <div class="col-xl-4 col-lg-4 col-sm-6 card-center border-right1 pe-0 ps-0 pt-5 pt-lg-0 h-100 ">
+                            <div class="card-hover ">
                                 <p
                                     class="ff-PlusJakarta fs-xl fw-semibold  off-white text-center mb-0 lh-140 text-hover">
                                     $0.99</p>
                                 <p class="ff-PlusJakarta fs-lg fw-medium off-white text-center lh-140">7 Days</p>
                                 <div class=" mx-auto pt-80 border-top1 d-flex justify-content-center flex-column ">
-                                    <div class="d-flex gap-3 align-items-center ps-lg-5">
+                                    <div class="d-flex gap-3 align-items-center ps-lg-5 pl-25">
                                         <span>
                                             <svg width="21" height="22" viewBox="0 0 21 22" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -874,14 +878,14 @@
 
                                         <div>
                                             <p
-                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0">
+                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0 text-nowrap">
                                                 50
                                                 pages
                                                 analysis ( 7
                                                 days )</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex gap-3 align-items-center ps-lg-5 pt-3 ">
+                                    <div class="d-flex gap-3 align-items-center ps-lg-5 pl-25 pt-3 ">
                                         <span>
                                             <svg width="21" height="22" viewBox="0 0 21 22" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -909,13 +913,13 @@
                                         </span>
                                         <div>
                                             <p
-                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0">
+                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0 text-nowrap">
                                                 Share
                                                 up to
                                                 2 users</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex gap-3 align-items-center ps-lg-5 pt-3 ">
+                                    <div class="d-flex gap-3 align-items-center ps-lg-5 pl-25 pt-3 ">
                                         <span>
                                             <svg width="21" height="22" viewBox="0 0 21 22" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -943,7 +947,7 @@
                                         </span>
                                         <div>
                                             <p
-                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0">
+                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0 text-nowrap">
                                                 After 7
                                                 day, auto renews plan</p>
                                         </div>
@@ -955,7 +959,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-sm-6 card-center border-right1 pe-0 ps-0 pt-5 pt-lg-0 ">
+                        <div class="col-xl-4 col-lg-4 col-sm-6 card-center  border-right1 pe-0 ps-0 pt-5 pt-lg-0 h-100 ">
                             <div class="card-hover">
                                 <p
                                     class="ff-PlusJakarta fs-xl fw-semibold  off-white text-center mb-0 lh-140 text-hover">
@@ -990,7 +994,7 @@
                                         </span>
                                         <div>
                                             <p
-                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0">
+                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0 text-nowrap">
                                                 unlimited
                                                 pages analysis/ year</p>
                                         </div>
@@ -1023,7 +1027,7 @@
                                         </span>
                                         <div>
                                             <p
-                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0">
+                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0 text-nowrap">
                                                 Share
                                                 up to
                                                 10 users</p>
@@ -1057,7 +1061,7 @@
                                         </span>
                                         <div>
                                             <p
-                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0">
+                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0 text-nowrap">
                                                 Maximum
                                                 100
                                                 pages per doc.</p>
@@ -1070,7 +1074,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-sm-6 card-center pe-0 ps-0 plan-ho ver pt-5 pt-lg-0 ">
+                        <div class="col-xl-4 col-lg-4 col-sm-6 card-center pe-0 ps-0 plan-ho ver pt-5 pt-lg-0 h-100 ">
                             <div class="card-hover">
                                 <p
                                     class="ff-PlusJakarta fs-xl fw-semibold  off-white text-center mb-0 lh-140 text-hover">
@@ -1105,7 +1109,7 @@
                                         </span>
                                         <div>
                                             <p
-                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0">
+                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0 text-nowrap">
                                                 3000
                                                 pages
                                                 analysis/ year</p>
@@ -1139,7 +1143,7 @@
                                         </span>
                                         <div>
                                             <p
-                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0">
+                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0 text-nowrap">
                                                 Share
                                                 up to
                                                 2 users</p>
@@ -1173,7 +1177,7 @@
                                         </span>
                                         <div>
                                             <p
-                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0">
+                                                class="ff-PlusJakarta fw-normal fs-md lh-140 text-capitalize bs-gry mb-0 text-nowrap">
                                                 Maximum
                                                 100
                                                 pages per doc.</p>
@@ -1223,7 +1227,7 @@
     </main>
     <!-- =============footer============ -->
     <footer class="dark-black overflow-hidden">
-        <div class="container-fluid">
+        <div class="custom-container">
             <div class="row pb-90" data-aos="zoom-out" data-aos-duration="1500">
                 <div class="col-xl-3 pt-103 ">
                     <img src="./assets/images/footer-logo.png" alt="footer" class="corsour-pointer">
